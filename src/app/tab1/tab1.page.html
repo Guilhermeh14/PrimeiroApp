@@ -1,0 +1,65 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="end">
+      <ion-icon class="toolbar-button" name="person-circle-outline"></ion-icon>
+    </ion-buttons>
+    <ion-title>Cardápio</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-searchbar placeholder="Buscar"></ion-searchbar>
+
+  <ion-list>
+    <ion-list-header>
+      <ion-label>Pizzas</ion-label>
+    </ion-list-header>
+    <ion-item href="#">
+      <ion-label class="text-small">
+        Marguerita
+      </ion-label>
+      <ion-thumbnail slot="start">
+        <img src="https://cienciaemacao.com.br/wp-content/uploads/2019/07/pizza-386717_1920.jpg">
+      </ion-thumbnail>
+      <ion-badge class="text-small" slot="end">R$ 22,00</ion-badge>
+    </ion-item>
+    <ion-item href="#">
+      <ion-label class="text-small">
+        Calabresa
+      </ion-label>
+      <ion-thumbnail slot="start">
+        <img
+          src="https://cdn6.campograndenews.com.br/uploads/noticias/2022/03/04/3cb5530b66938475b217183a18974de301f5b0fd.jpg">
+      </ion-thumbnail>
+      <ion-badge class="text-small" slot="end">R$ 27,00</ion-badge>
+    </ion-item>
+    <ion-item href="#">
+      <ion-label class="text-small">
+        Docinho
+      </ion-label>
+      <ion-thumbnail slot="start">
+        <img
+          src="https://www.arquitetosdapizza.com.br/wp-content/uploads/sb-instagram-feed-images/271348987_452660866492306_7758873227852834601_nfull.jpg">
+      </ion-thumbnail>
+      <ion-badge class="text-small" slot="end">R$ 32,00</ion-badge>
+    </ion-item>
+    <ion-item href="#">
+      <ion-label class="text-small">
+        Peperoni
+      </ion-label>
+      <ion-thumbnail slot="start">
+        <img src="https://img.freepik.com/fotos-gratis/pizza-pizza-cheia-de-tomates-salame-e-azeitonas_140725-1200.jpg">
+      </ion-thumbnail>
+      <ion-badge class="text-small" slot="end">R$ 30,00</ion-badge>
+    </ion-item>
+    <ion-item href="#">
+      <ion-label class="text-small">
+        Baiana
+      </ion-label>
+      <ion-thumbnail slot="start">
+        <img src="https://revistadeguste.com/wp-content/uploads/2020/05/OXENTEMAIO20_1.jpg">
+      </ion-thumbnail>
+      <ion-badge class="text-small" slot="end">R$ 45,00</ion-badge>
+    </ion-item>
+  </ion-list>
+</ion-content>
